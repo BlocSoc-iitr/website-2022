@@ -1,0 +1,13 @@
+.container {
+    background: linear-gradient(#1E1E25,#1E1E25) padding-box,
+    linear-gradient(to right,#0500FF99,#F537F999,#F7BE2B99) border-box;
+    box-shadow: -4px -4px 12px rgba(0, 0, 0, 0.25), 4px 4px 12px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    border: solid 4px transparent;
+    border-radius: 8px;
+    padding: 8px;
+    width: 440px;
+    height: 52px;
+}
