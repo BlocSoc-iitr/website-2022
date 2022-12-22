@@ -10,7 +10,6 @@ const Header = () => {
     return (
         <div className={styles.container}>
             <img src={logo} alt=""/>
-            <Navbar />
             <p>Join us on Discord</p>
         </div>
     );

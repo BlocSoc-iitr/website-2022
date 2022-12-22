@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Navbar.module.css';
-import NavButtons from '../../HelperComponents/NavButton/NavButton';
+import NavButtons from '../NavButton/NavButton';
 
 const Navbar = () => {
 

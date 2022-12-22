@@ -1,0 +1,35 @@
+.heroBody{
+    background: #1E1E25;
+}
+.container{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    padding-top: 156px;
+    padding-bottom: 248px;
+}
+.textLarge{
+    font-family: 'Magilio';
+    color: #fff;
+    font-size: 72px;
+    display: flex;
+}
+.textSmall{
+    font-family: 'Montserrat',sans-serif;
+    color: #fff;
+    font-size: 24px;
+    width: 622px;
+    text-align: center;
+    display: flex;
+    padding: 0 0 24px 57px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 448px;
+}
