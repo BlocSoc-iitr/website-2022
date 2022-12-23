@@ -7,7 +7,7 @@ const NavButtons = ({str}) => {
 
     return (
         <div className={styles.container}>
-            {str}
+            <div className={styles.text}>{str}</div>
         </div>
     );
 };
