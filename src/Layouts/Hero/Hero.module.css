@@ -1,5 +1,7 @@
 .heroBody{
-    background: #1E1E25;
+    background: url(./assets/upper\ blobs.svg) right top no-repeat, linear-gradient(180deg, rgba(30, 30, 37, 0) 57.08%, #1E1E25 100%) left bottom no-repeat, #1E1E25 left top repeat;
+    background-size: cover;
+    height: 100vh;
 }
 .container{
     

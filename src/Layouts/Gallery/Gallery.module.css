@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background: #1E1E25 ;
+    height: 861px;
+    /* width: 100vw; */
+}
+
+.heading{
+    color: #fff;
+    font-family:'Magilio';
+    font-size: 72px;
+}
