@@ -8,9 +8,9 @@
     color: #fff;
     border: solid 4px transparent;
     border-radius: 8px;
-    padding: 4px;
-    width: 440px;
-    height: 44px;
+    padding: 0.2rem;
+    width: 23vw;
+    height: 4.7vh;
 }
 
 .container {
