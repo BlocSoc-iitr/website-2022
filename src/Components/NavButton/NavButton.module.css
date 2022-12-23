@@ -1,10 +1,16 @@
 .container{
-    padding: 14px 0;
-    /* width: 103px; */
-    height: 24px;
+    padding: 0.7rem 0;
+    height: 2.6vh;
     color: white;
 }
 
 .text{
     padding: 0 0;
+    font-size: 1rem;
+}
+
+@media only screen and (max-width:1280px) {
+    .text{
+        font-size: 0.8rem;
+    }
 }
