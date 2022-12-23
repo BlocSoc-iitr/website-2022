@@ -3,28 +3,31 @@
                 linear-gradient(to right,#F537F9,#F7BE2B) border-box;
     border: solid 2px transparent;
     border-radius: 4px;
-    height: 45px;
-    width: 120px;
+    height: 2.5rem;
+    width: 14vw;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Montserrat',sans-serif;
-    padding: 0 5%;
+    font-family: 'Montserrat', sans-serif;
+    /* padding: 0 5%; */
 }
 
-/* .container :hover {
-    background: linear-gradient(90deg, #F537F9 0%, #F7BE2B 100%) padding-box,
-                linear-gradient(to right,#F537F9,#F7BE2B) border-box;
-                padding: 0 0;
-} */
+.container :hover {
+    /* background: linear-gradient(90deg, #F537F9 2.33%, #F7BE2B 100%);
+    -webkit-background-clip: text;
+-webkit-text-fill-color: transparent; */
+background-color: white;
+}
 
 .text{
     background: linear-gradient(to right,#F537F9,#F7BE2B);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   padding: 0 0;
+  font-size: 1.5rem;
 }
 .text :hover {
+    color: #ffff;
     background: white;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

@@ -9,15 +9,18 @@
     border: solid 4px transparent;
     border-radius: 8px;
     padding: 0.2rem;
-    width: 23vw;
-    height: 4.7vh;
+    height: 44px;
+    width: 28vw;
+    position: fixed;
+    left: 32rem;
+    margin: auto;
 }
 
 .container {
     position: -webkit-sticky;
-    position: sticky;
-    top: 0;
+    
 }
+
 
 a {
     text-decoration: none;

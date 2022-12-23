@@ -1,5 +1,5 @@
 .heroBody{
-    background: url(./assets/upper\ blobs.svg) right top no-repeat, linear-gradient(180deg, rgba(30, 30, 37, 0) 57.08%, #1E1E25 100%) left bottom no-repeat, #1E1E25 left top repeat;
+    background: url(./assets/Rectangle\ 82.png),url(./assets/Rectangle.png),url(./assets/upper\ blobs.svg) right top no-repeat, linear-gradient(180deg, rgba(30, 30, 37, 0) 57.08%, #1E1E25 100%) left bottom no-repeat, #1E1E25 left top repeat;
     background-size: cover;
     height: 100vh;
 }
@@ -10,28 +10,29 @@
     justify-content: center;
     align-items: center;
     justify-items: center;
-    padding-top: 156px;
-    padding-bottom: 248px;
+    padding-top: 12vh;
+    /* padding-bottom: 12vh; */
 }
 .textLarge{
     font-family: 'Magilio';
     color: #fff;
-    font-size: 72px;
+    font-size: 4.5rem;
     display: flex;
 }
 .textSmall{
-    font-family: 'Montserrat',sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #fff;
-    font-size: 24px;
-    width: 622px;
+    font-size: 1.5rem;
+    width: 43vw;
     text-align: center;
     display: flex;
-    padding: 0 0 24px 57px;
+    padding: 2rem 0;
 }
 
 .buttons{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    width: 448px;
+    justify-content: space-between;
+    width: 31vw;
+    padding-top: 1.4rem;
 }
