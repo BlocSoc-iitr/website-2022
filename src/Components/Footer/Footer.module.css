@@ -1,0 +1,41 @@
+.container{
+    background: #1E1E25;
+    box-sizing: border-box;
+    margin: 0 0;
+    padding: 0,0;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+
+.sub{
+    background: #111114;
+    height: 265px;
+    width: 100vw;
+    margin: 48px 48px;
+    padding-left: 64px;
+    padding-right: 136px;
+    padding-top: 83px;
+    padding-bottom: 52px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 12px;
+    
+}
+
+.sub img{
+    height: 134px;
+    width: 404px;
+}
+
+.footerList{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.footerList ul li{
+    list-style: none;
+}
+

@@ -1,0 +1,13 @@
+.Body{
+    background:  #1E1E25;
+}
+.container{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    justify-items: center;
+    padding-top: 156px;
+    padding-bottom: 248px;
+}

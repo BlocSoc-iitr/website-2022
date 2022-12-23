@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #1E1E25 ;
+    height: 861px;
+    /* width: 100vw; */
+}
+
+.heading{
+    color: #fff;
+    font-family:'Magilio';
+    font-size: 72px;
+}
+
+.card1 {grid-area: 'card';}
+.card2 {grid-area: 'card';}
+.card3 {grid-area: 'card';}
+.card4 {grid-area: 'card';}
+
+.grid{
+    margin-top: 48px;
+    display: grid;
+    grid-template: 'card card' 'card card';
+    gap: 40px;
+}
