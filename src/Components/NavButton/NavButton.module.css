@@ -1,6 +1,10 @@
 .container{
-    padding: 14px 16px;
-    width: 103px;
+    padding: 14px 0;
+    /* width: 103px; */
     height: 24px;
     color: white;
+}
+
+.text{
+    padding: 0 0;
 }

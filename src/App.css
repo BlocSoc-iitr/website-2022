@@ -1,2 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url(//db.onlinewebfonts.com/c/579a8f66264bd20639c65e2250acd4c9?family=Magilio);
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
