@@ -7,18 +7,19 @@
     align-items: center;
     color: #fff;
     border: solid 4px transparent;
-    border-radius: 8px;
+    border-radius: 0.5rem;
     padding: 0.2rem;
-    height: 44px;
+    height: 4vh;
     width: 28vw;
     position: fixed;
-    left: 32rem;
+    top: 2rem;
+    /* left: 32rem; */
     margin: auto;
 }
 
 .container {
     position: -webkit-sticky;
-    
+    /* justify-content: center; */
 }
 
 
