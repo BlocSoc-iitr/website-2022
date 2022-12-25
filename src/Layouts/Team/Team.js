@@ -10,10 +10,10 @@ const Team = (props) => {
                 Meet the Team
             </div>
             <div className={styles.grid}>
-                <div className={styles.card1}><TeamCard Name={"Samarendra Gouda"} designation={"Member"}/></div>
-                <div className={styles.card2}><TeamCard Name={"Samarendra Gouda"} designation={"Member"}/></div>
-                <div className={styles.card3}><TeamCard Name={"Samarendra Gouda"} designation={"Member"}/></div>
-                <div className={styles.card4}><TeamCard Name={"Samarendra Gouda"} designation={"Member"}/></div>
+                <div className={styles.card1}><TeamCard Name={"Pradyuman Verma"} designation={"Joint Secretary"}/></div>
+                <div className={styles.card2}><TeamCard Name={"Vaibhav Khanna"} designation={"Joint Secretary"}/></div>
+                <div className={styles.card3}><TeamCard Name={"Samarpan Dutta"} designation={"Joint Secretary"}/></div>
+                <div className={styles.card4}><TeamCard Name={"Aditya Gite"} designation={"Joint Secretary"}/></div>
             </div>
         </div>
     );

@@ -4,7 +4,8 @@
     align-items: center;
     justify-content: flex-start;
     background: #1E1E25 ;
-    height: 100vh;
+    height: auto;
+    padding-top: 10vh;
     /* width: 100vw; */
 }
 
