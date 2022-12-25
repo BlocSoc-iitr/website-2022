@@ -4,7 +4,8 @@
     align-items: center;
     justify-content: center;
     background: #1E1E25 ;
-    height: 100vh;
+    height: auto;
+    padding-top: 10vh;
     /* width: 100vw; */
 }
 
@@ -43,9 +44,11 @@
 .num{
     font-family: 'Magilio';
     font-size: 4.5rem;
-    background: linear-gradient(to right,#F537F9 ,#F7BE2B);
+    background: linear-gradient(98.61deg, #0500FF 0%, #F537F9 53.08%, #F7BE2B 96.51%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
 }
 
 .text{
