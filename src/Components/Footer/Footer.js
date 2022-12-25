@@ -10,7 +10,7 @@ const Footer = () => {
             <div className={styles.sub}>
                 <img src={logo} alt=""/>
                 <div className={styles.footerItems}>
-                    <p>Contact us at: blocsoc@acm.iitr.ac.in</p>
+                <a href='mailto:blocsoc@acm.iitr.ac.in'><p>Contact us at: blocsoc@acm.iitr.ac.in</p></a>
                     <div className={styles.footerList}>
                         <ul>
                             <li>Home</li>
