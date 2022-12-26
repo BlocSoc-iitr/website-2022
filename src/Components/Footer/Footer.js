@@ -11,7 +11,7 @@ const Footer = () => {
           <Link to="/">
             <img src={logo} alt="" />
           </Link>
-          <a href="mailto:blocsoc@acm.iitr.ac.in">
+          <a href="mailto:blocsoc.acm@iitr.ac.in">
             <p>Contact us at: blocsoc@acm.iitr.ac.in</p>
           </a>
         </div>
