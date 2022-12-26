@@ -9,7 +9,7 @@ const ProjectBody = (props) => {
 
     return (
         <div className={styles.Body}>
-            <Header />.
+            <Header />
             <div className={styles.container}>
                 <ProjectCard />
                 <ProjectCard />
