@@ -12,8 +12,6 @@ const NavButtons = ({str,path}) => {
         containerClass = styles.activeContainer;
     }
     else {containerClass = styles.container};
-
-    console.log(pathname);
     return (
         <div className={containerClass}>
             <div className={styles.text}>{str}</div>

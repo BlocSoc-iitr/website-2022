@@ -1,19 +1,27 @@
 import React from "react";
 import styles from "./ProjectCard.module.css";
-import Label from "../Label/Label"
+import Label from "../Label/Label";
 import Button from "../Button/Button";
 
-const ProjectCard = (props) => {
+const ProjectCard = ({ heading, label, desc, link, index }) => {
+  var containerClass;
+  if (index % 3 === 0) {
+    containerClass = styles.blueContainer;
+  } else if (index % 3 === 1) {
+    containerClass = styles.purpleContainer;
+  } else if (index % 3 === 2) {
+    containerClass = styles.yellowContainer;
+  }
   return (
-    <div className={styles.container}>
+    <div className={containerClass}>
       <div className={styles.img}></div>
       <div className={styles.content}>
-        <h3>Project Heading</h3>
+        <div className={styles.heading}>{heading}</div>
         <div className={styles.label}>
-          <Label str={"Project Label"} />
+          <Label str={label} />
         </div>
-        <p className={styles.desc}>Here we have to write description of the project, the prizes it won if build at some hackathon.</p>
-        <Button str={"View Project"} />
+        <p className={styles.desc}>{desc}</p>
+        <a href={link} target={'_blank'}><Button str={"View Project"} /></a>
       </div>
     </div>
   );

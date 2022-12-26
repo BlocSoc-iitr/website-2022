@@ -1,26 +1,33 @@
-import React from 'react';
-import styles from './EventCard.module.css'
-import Button from '../Button/Button';
+import React from "react";
+import styles from "./EventCard.module.css";
+import Button from "../Button/Button";
 
-
-const EventCard = (props) => {
-
-    return (
-      <div className={styles.container}>
-        <div className={styles.img}></div>
-        <div className={styles.content}>
-          <h3>Event Name</h3>
-          <div className={styles.label}>
-            <p>13 September 2022 <br /> Room No. 104, New LHC </p>
-            
-          </div>
-          <p className={styles.desc}>
-            Here we should write details of the event like what it is about and any necessary details.
+const EventCard = ({ name, date, venue, desc, link, index }) => {
+  var containerClass;
+  if (index % 3 === 0) {
+    containerClass = styles.blueContainer;
+  } else if (index % 3 === 1) {
+    containerClass = styles.purpleContainer;
+  } else if (index % 3 === 2) {
+    containerClass = styles.yellowContainer;
+  }
+  return (
+    <div className={containerClass}>
+      <div className={styles.img}></div>
+      <div className={styles.content}>
+        <div className={styles.heading}>{name}</div>
+        <div className={styles.label}>
+          <p>
+            {date} <br /> {venue}{" "}
           </p>
-          <Button str={"View Recording"} />
         </div>
+        <p className={styles.desc}>{desc}</p>
+        <a href={link}>
+          <Button str={"View Recording"} />
+        </a>
       </div>
-    );
+    </div>
+  );
 };
 
 export default EventCard;
