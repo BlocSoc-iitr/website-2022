@@ -1,15 +1,17 @@
 .container{
     padding: 0 0;
-    height: 4.8vh;
+    height: auto;
     color: white;
+    margin-left: 3%;
 }
 
 .activeContainer{
     padding: 0 0;
-    height: 4.8vh;
+    height: auto;
     color: white;
     background: #292933;
     border-radius: 4px;
+    margin-left: 3%;
 
 }
 
