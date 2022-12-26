@@ -35,3 +35,13 @@
 .designation{
     font-size: 1.25rem;
 }
+
+.socials{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 10px;
+}
+.socials img{
+    padding: 2px 5px;
+}
