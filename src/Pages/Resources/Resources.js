@@ -15,7 +15,7 @@ const Resources = (props) => {
             </div>
             <Blogs />
             <Videos />
-            <Footer />
+            {/* <Footer /> */}
         </>
     );
 };

@@ -10,6 +10,7 @@ import Home from './Pages/Home/Home';
 import Resources from './Pages/Resources/Resources';
 import Projects from './Pages/Projects/Projects';
 import Events from './Pages/Events/Events';
+import Footer from './Components/Footer/Footer';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
           <Route element={<Events />} path="events" />
           <Route element={<Resources />} path="resources" />
         </Routes>
+        <Footer />
       </Router>
     </div>
   );

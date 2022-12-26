@@ -9,26 +9,21 @@
     justify-content: center;
     align-items: center;
     font-family: 'Montserrat', sans-serif;
-    /* padding: 0 5%; */
-}
-
-.container :hover {
-    /* background: linear-gradient(90deg, #F537F9 2.33%, #F7BE2B 100%);
-    -webkit-background-clip: text;
--webkit-text-fill-color: transparent; */
-background-color: white;
+    cursor: pointer;
 }
 
 .text{
     background: linear-gradient(to right,#F537F9,#F7BE2B);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  padding: 0 0;
-  font-size: 1.5rem;
+    background-clip: text;
+    text-fill-color: transparent;
+    padding: 0 0;
+    font-size: 1.5rem;
 }
-.text :hover {
-    color: #ffff;
-    background: white;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+
+@media only screen and (max-width:1280px) {
+    .text{
+        font-size: 0.8rem;
+    }
 }

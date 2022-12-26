@@ -5,11 +5,11 @@ import styles from './Button.module.css';
 const Button = ({str}) => {
 
     return (
-        <div className={styles.container}>
-            <p className={styles.text}>
-                {str}
-            </p>
-        </div>
+      <div className={styles.button}>
+        <button className={styles.container}>
+          <div className={styles.text}>{str}</div>
+        </button>
+      </div>
     );
 };
 

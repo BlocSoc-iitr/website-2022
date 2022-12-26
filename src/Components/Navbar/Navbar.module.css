@@ -9,8 +9,8 @@
     border: solid 2px transparent;
     border-radius: 0.5rem;
     padding: 0.2rem;
-    height: 5vh;
-    width: 28vw;
+    height: auto;
+    width: auto;
     position: fixed;
     top: 2.5rem;
     margin: auto;

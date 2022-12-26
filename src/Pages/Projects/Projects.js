@@ -14,7 +14,7 @@ const Projects = (props) => {
                 <Navbar />
             </div>
             <ProjectBody />
-            <Footer />
+            {/* <Footer /> */}
         </>
     );
 };
