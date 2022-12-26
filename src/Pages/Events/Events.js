@@ -14,7 +14,7 @@ const Events = (props) => {
                 <Navbar />
             </div>
             <EventsBody />
-            <Footer />
+            {/* <Footer /> */}
         </>
     );
 };

@@ -21,7 +21,7 @@ const Home = (props) => {
             <History />
             <Team />
             <Gallery />
-            <Footer />
+            {/* <Footer /> */}
         </>
     );
 };
