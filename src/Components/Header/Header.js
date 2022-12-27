@@ -14,7 +14,7 @@ const Header = () => {
                 <img src={logo} alt=""/>
             </Link>            
             {/* <Navbar /> */}
-            <a href='https://discord.gg/Zvq3rpjBAB'><p>Join us on Discord</p></a>
+            <a className={styles.discord} href='https://discord.gg/Zvq3rpjBAB'><p>Join us on Discord</p></a>
         </div>
     );
 };

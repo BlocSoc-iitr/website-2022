@@ -9,6 +9,10 @@
     font-weight: 400;
 }
 
+.discord{
+    color: #fff;
+}
+
 @media only screen and (max-width:1280px) {
     .container{
         font-size: 0.8rem;
