@@ -15,14 +15,17 @@
     font-size: 4.5rem;
 }
 
-.card1 {grid-area: 'card';}
+/* .card1 {grid-area: 'card';}
 .card2 {grid-area: 'card';}
 .card3 {grid-area: 'card';}
-.card4 {grid-area: 'card';}
+.card4 {grid-area: 'card';} */
 
 .grid{
     margin-top: 3rem;
     display: grid;
     grid-template: 'card card' 'card card';
+    /* grid-template-areas: 
+    "card card card"
+    ".    .    .   "; */
     gap: 3.5rem;
 }

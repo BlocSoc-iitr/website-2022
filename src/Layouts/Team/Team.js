@@ -1,22 +1,27 @@
-import React from 'react';
-import styles from './Team.module.css';
-import TeamCard from '../../Components/TeamCard/TeamCard';
+import React from "react";
+import styles from "./Team.module.css";
+import TeamCard from "../../Components/TeamCard/TeamCard";
+import Data from "./Team_data";
 
 const Team = (props) => {
-
-    return (
-        <div className={styles.container}>
-            <div className={styles.heading}>
-                Meet the Team
-            </div>
-            <div className={styles.grid}>
-                <div className={styles.card1}><TeamCard Name={"Pradyuman Verma"} designation={"Joint Secretary"}/></div>
-                <div className={styles.card2}><TeamCard Name={"Vaibhav Khanna"} designation={"Joint Secretary"}/></div>
-                <div className={styles.card3}><TeamCard Name={"Samarpan Dutta"} designation={"Joint Secretary"}/></div>
-                <div className={styles.card4}><TeamCard Name={"Aditya Gite"} designation={"Joint Secretary"}/></div>
-            </div>
-        </div>
-    );
+  var data = Data.joint_secy;
+  return (
+    <div className={styles.container}>
+      <div className={styles.heading}>Meet the Team</div>
+      <div className={styles.grid}>
+        {data.map((m, index) => {
+          return (
+            <TeamCard
+              index={index}
+              Name={m.name}
+              designation={m.designation}
+              key={m.sl}
+            />
+          );
+        })}
+      </div>
+    </div>
+  );
 };
 
 export default Team;
