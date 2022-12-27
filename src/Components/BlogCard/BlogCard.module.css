@@ -1,7 +1,52 @@
-.container{
+.blueContainer{
     background: linear-gradient(to right, #0500FF26, #0500FF00);
-    height: 273px;
-    width: 592px;
-    margin: 32px 32px 32px 32px;
+    height: auto;
+    width: 38.5vw;
+    margin: 0 0 4% 4%;
     border-radius: 16px;
+    display: flex;
+    flex-direction: row;
+    padding: 2%;
+}
+
+.purpleContainer{
+    background: linear-gradient(125.73deg, rgba(245, 55, 249, 0.15) 1.33%, rgba(245, 55, 249, 0) 100%);
+    height: auto;
+    width: 38.5vw;
+    margin: 0 0 4% 4%;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: row;
+    padding: 2%;
+}
+
+.yellowContainer{
+    background: linear-gradient(125.73deg, rgba(247, 190, 43, 0.15) 1.33%, rgba(247, 190, 43, 0) 100%);
+    height: auto;
+    width: 38.5vw;
+    margin: 0 0 4% 4%;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: row;
+    padding: 2%;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 2%;
+    color: #fff;
+    font-family: 'Montserrat',sans-serif;
+}
+
+.heading{
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 2% 0 ;
+}
+.desc {
+    font-size: 1.5rem;
+    padding-right: 5%;
 }
