@@ -2,19 +2,23 @@
     background:  #1E1E25;
 }
 .container{
-    
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    justify-items: center;
-    padding-top: 156px;
-    padding-bottom: 248px;
+    justify-content: center;
+    padding: 4% 4.5%;
 }
+.sub{
+    
+    display: grid;
+    grid-template-areas: "card card";
+    padding: 5% 0;
+}
+
+
 
 .heading{
     font-family: 'Magilio';
     font-size: 72px;
     color: #fff;
-    padding: 0 112px;
+    padding-left: 2%;
 }
