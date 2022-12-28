@@ -15,6 +15,8 @@ const Team = (props) => {
               index={index}
               Name={m.name}
               designation={m.designation}
+              twitter={m.twitter}
+              linkedin={m.linkedin}
               key={m.sl}
             />
           );

@@ -12,6 +12,8 @@
     display: grid;
     grid-template-areas: "card card";
     padding: 5% 0;
+    grid-row-gap: 2rem;
+    grid-column-gap: 2rem;
 }
 
 

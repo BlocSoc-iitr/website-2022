@@ -14,3 +14,9 @@
     font-family:'Magilio';
     font-size: 4.5rem;
 }
+
+.content{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: left; */
+}

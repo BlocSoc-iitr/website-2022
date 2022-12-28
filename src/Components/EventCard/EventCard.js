@@ -22,7 +22,7 @@ const EventCard = ({ name, date, venue, desc, link, index }) => {
           </p>
         </div>
         <p className={styles.desc}>{desc}</p>
-        <a href={link}>
+        <a className={styles.link} href={link}>
           <Button str={"View Recording"} />
         </a>
       </div>

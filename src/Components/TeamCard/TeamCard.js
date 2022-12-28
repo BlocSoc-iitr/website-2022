@@ -1,9 +1,9 @@
 import React from "react";
 import styles from "./TeamCard.module.css";
-import twitter from "./assets/twitter.svg";
-import linkedin from "./assets/linkedin.svg";
+import twitterLogo from "./assets/twitter.svg";
+import linkedinLogo from "./assets/linkedin.svg";
 
-const TeamCard = ({ Name, designation, index }) => {
+const TeamCard = ({ Name, designation, index, twitter, linkedin }) => {
   var containerClass;
   if (index % 3 === 0) {
     containerClass = styles.blueContainer;
@@ -19,8 +19,8 @@ const TeamCard = ({ Name, designation, index }) => {
         <div className={styles.name}>{Name}</div>
         <div className={styles.designation}>{designation}</div>
         <div className={styles.socials}>
-          <img src={twitter} alt="" />
-          <img src={linkedin} alt="" />
+          <a href={twitter} target={'_blank'}><img src={twitterLogo} alt="" /></a>
+          <a href={linkedin} target={'_blank'}><img src={linkedinLogo} alt="" /></a>
         </div>
       </div>
     </div>

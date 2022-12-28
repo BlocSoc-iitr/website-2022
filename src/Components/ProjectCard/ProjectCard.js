@@ -21,7 +21,7 @@ const ProjectCard = ({ heading, label, desc, link, index }) => {
           <Label str={label} />
         </div>
         <p className={styles.desc}>{desc}</p>
-        <a href={link} target={'_blank'}><Button str={"View Project"} /></a>
+        <a className={styles.link} href={link} target={'_blank'}><Button str={"View Project"} /></a>
       </div>
     </div>
   );

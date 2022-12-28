@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import styles from "./Hero.module.css";
 import Header from "../../Components/Header/Header";
 import Button from "../../Components/Button/Button";
@@ -16,8 +16,8 @@ const Hero = (props) => {
           and bitcoin-dev enthusiasts and to spread the word about 'Web 3.0'
         </div>
         <div className={styles.buttons}>
-          <Link to="/projects"><Button str={"View Projects"} /></Link>
-          <Link to="/events"><Button str={"Browse Events"} /></Link>
+          <NavLink className={styles.button} to="/projects"><Button str={"View Projects"} /></NavLink>
+          <NavLink className={styles.button} to="/events"><Button str={"Browse Events"} /></NavLink>
         </div>
       </div>
     </div>
