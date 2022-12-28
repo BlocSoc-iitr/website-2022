@@ -42,3 +42,25 @@
     /* width: 31vw; */
     padding-top: 1.4rem;
 }
+
+@media (min-width:320px) and (max-width: 760px)  {
+    /* smartphones, iPhone, portrait 480x320 phones */
+
+    .heroBody{
+        background: url(./assets/Rectangle\ 82.png) right top no-repeat,url(./assets/Rectangle.png) right top no-repeat,url(./assets/upper\ blobs.svg) right top no-repeat, linear-gradient(180deg, rgba(30, 30, 37, 0) 57.08%, #1E1E25 100%) left bottom no-repeat, #1E1E25 left top repeat;
+        background-size: cover;
+        height: auto;
+    }
+    .container{
+        padding-top: 20vh;
+        padding-bottom: 10vh;
+        margin-bottom: 0;
+    }
+     .textLarge{
+        font-size: 2.5rem;
+     }
+     .textSmall{
+        font-size: 0.75rem;
+        width: 75.243vw;
+     }
+   }

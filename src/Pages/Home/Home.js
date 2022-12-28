@@ -13,10 +13,10 @@ const Home = (props) => {
 
     return (
         <>
+            <Hero />
             <div className={styles.navbar}>
                 <Navbar />
             </div>
-            <Hero />
             <Intro />
             <History />
             <Team />
