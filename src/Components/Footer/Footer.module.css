@@ -57,6 +57,9 @@
 a {
     color: #7F7F7F;
 }
+a:hover{
+    text-decoration: underline;
+}
 
 @media only screen and (max-width:1280px) {
     .footerItems{

@@ -1,7 +1,7 @@
 .heroBody{
-    background: url(./assets/Rectangle\ 82.png),url(./assets/Rectangle.png),url(./assets/upper\ blobs.svg) right top no-repeat, linear-gradient(180deg, rgba(30, 30, 37, 0) 57.08%, #1E1E25 100%) left bottom no-repeat, #1E1E25 left top repeat;
+    background: url(./assets/Rectangle\ 82.png) right top no-repeat,url(./assets/Rectangle.png) right top no-repeat,url(./assets/upper\ blobs.svg) right top no-repeat, linear-gradient(180deg, rgba(30, 30, 37, 0) 57.08%, #1E1E25 100%) left bottom no-repeat, #1E1E25 left top repeat;
     background-size: cover;
-    height: 100vh;
+    height: 116vh;
 }
 .container{
     
@@ -11,7 +11,7 @@
     align-items: center;
     justify-items: center;
     padding-top: 12vh;
-    /* padding-bottom: 12vh; */
+    margin-bottom: 32vh;
 }
 .textLarge{
     font-family: 'Magilio';
@@ -29,10 +29,16 @@
     padding: 2rem 0;
 }
 
+.button{
+    text-decoration: none !important;
+}
+
 .buttons{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 31vw;
+    display: grid;
+    grid-template-areas: "button button";
+    grid-column-gap: 2vw;
+    /* flex-direction: row; */
+    /* justify-content: space-between; */
+    /* width: 31vw; */
     padding-top: 1.4rem;
 }

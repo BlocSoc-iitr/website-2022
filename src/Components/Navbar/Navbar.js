@@ -1,24 +1,24 @@
 import React from "react";
 import styles from "./Navbar.module.css";
 import NavButtons from "../NavButton/NavButton";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
 
   return (
     <div className={styles.container}>
-      <Link to="/">
+      <NavLink className={styles.link} to="/">
         <NavButtons str={"Home"} path={"/"} />
-      </Link>
-      <Link to="/projects">
+      </NavLink>
+      <NavLink className={styles.link} to="/projects">
         <NavButtons str={"Projects"} path={"/projects"} />
-      </Link>
-      <Link to="/events">
+      </NavLink>
+      <NavLink className={styles.link} to="/events">
         <NavButtons str={"Events"} path={"/events"} />
-      </Link>
-      <Link to="/resources">
+      </NavLink>
+      <NavLink className={styles.link} to="/resources">
         <NavButtons str={"Resources"} path={"/resources"} />
-      </Link>
+      </NavLink>
     </div>
   );
 };

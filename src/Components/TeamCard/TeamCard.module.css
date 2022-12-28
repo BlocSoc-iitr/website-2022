@@ -1,6 +1,6 @@
 .blueContainer{
-    width: 40vh;
-    height: 18vh;
+    width: 25vw;
+    height: 22vh;
     background: #0500FF26;
     border: #0500FF80 solid 1px;
     border-radius: 0.5rem;
@@ -11,8 +11,8 @@
     padding: 0 1.5rem;
 }
 .purpleContainer{
-    width: 40vh;
-    height: 18vh;
+    width: 25vw;
+    height: 22vh;
     background: rgba(245, 55, 249, 0.15);
     border: 1px solid rgba(245, 55, 249, 0.5);
     border-radius: 0.5rem;
@@ -23,8 +23,8 @@
     padding: 0 1.5rem;
 }
 .yellowContainer{
-    width: 40vh;
-    height: 18vh;
+    width: 25vw;
+    height: 22vh;
     background: rgba(247, 190, 43, 0.15);
     border: 1px solid rgba(247, 190, 43, 0.5);
     border-radius: 0.5rem;

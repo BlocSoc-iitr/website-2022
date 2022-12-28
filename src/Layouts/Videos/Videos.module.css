@@ -12,6 +12,7 @@
     display: grid;
     grid-template-areas: "card card";
     padding: 5% 0;
+    gap: 2rem;
 }
 
 
