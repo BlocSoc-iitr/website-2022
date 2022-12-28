@@ -14,10 +14,10 @@ const Intro = (props) => {
             <div className={styles.videoContainer}>
             <ReactPlayer
                 controls
-                width='40vw'
-                height='46.1vh'
+                width='60vw'
+                height='69vh'
                 url='https://www.youtube.com/watch?v=YRj5iM3pyfc'
-                light={true}
+                playing={true}
             />
             </div>
         </div>
