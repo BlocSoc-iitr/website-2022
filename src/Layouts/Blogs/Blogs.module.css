@@ -20,7 +20,20 @@
 
 .heading{
     font-family: 'Magilio';
-    font-size: 72px;
+    font-size: 4.5rem;
     color: #fff;
     padding-left: 2%;
+}
+
+@media screen and (min-width:320px) and (max-width: 760px) {
+    .sub{
+        grid-template-areas: "card";
+        grid-row-gap: 1vh;
+    }
+    .heading{
+        font-size:2.5rem ;
+    }
+    .container{
+        margin-top: 5vh;
+    }
 }

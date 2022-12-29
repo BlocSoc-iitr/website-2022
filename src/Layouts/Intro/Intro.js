@@ -42,8 +42,8 @@ const Intro = (props) => {
           ) : (
             <ReactPlayer
               controls
-              width="75vw"
-              height="18vh"
+              width="90vw"
+              height="22vh"
               url="https://www.youtube.com/watch?v=YRj5iM3pyfc"
               playing={true}
             />

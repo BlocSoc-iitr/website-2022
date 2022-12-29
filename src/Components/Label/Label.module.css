@@ -26,3 +26,13 @@
   font-size: 0.75rem;
   color: #ffffff;
 }
+
+@media only screen and (min-width:320px) and (max-width: 760px) {
+    .text{
+      font-size: 0.5rem;
+    }
+    .container{
+      height: 18px;
+      width: 14.8vw;
+    }
+}

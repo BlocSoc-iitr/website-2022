@@ -47,13 +47,13 @@
     /* smartphones, iPhone, portrait 480x320 phones */
 
     .heroBody{
-        background: url(./assets/Rectangle\ 82.png) right top no-repeat,url(./assets/Rectangle.png) right top no-repeat,url(./assets/upper\ blobs.svg) right top no-repeat, linear-gradient(180deg, rgba(30, 30, 37, 0) 57.08%, #1E1E25 100%) left bottom no-repeat, #1E1E25 left top repeat;
+        background: url(./assets/Rectangle\ 82.png) right top no-repeat,url(./assets/Group\ 311.png) right top no-repeat,url(./assets/upper_mobile.png) right top no-repeat, linear-gradient(180deg, rgba(30, 30, 37, 0) 57.08%, #1E1E25 100%) left bottom no-repeat, #1E1E25 left top repeat;
         background-size: cover;
         height: auto;
     }
     .container{
         padding-top: 20vh;
-        padding-bottom: 10vh;
+        padding-bottom: 36vh;
         margin-bottom: 0;
     }
      .textLarge{
@@ -63,4 +63,10 @@
         font-size: 0.75rem;
         width: 75.243vw;
      }
+     .buttons{
+        display: grid;
+        grid-template-areas: "button button";
+        grid-column-gap: 3.88vw;
+        padding-top: 1.4rem;
+    }
    }
