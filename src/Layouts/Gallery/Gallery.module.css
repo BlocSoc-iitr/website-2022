@@ -20,3 +20,10 @@
     flex-direction: row;
     /* justify-content: left; */
 }
+
+@media (min-width:320px) and (max-width: 760px)   {
+    /* smartphones, iPhone, portrait 480x320 phones */
+     .heading{
+        font-size: 2.5rem;
+     }
+   }

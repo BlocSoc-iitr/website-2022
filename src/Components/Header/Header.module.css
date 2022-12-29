@@ -22,3 +22,11 @@
         font-size: 0.8rem;
     }
 }
+
+@media (min-width:320px) and (max-width: 760px)  {
+    /* smartphones, iPhone, portrait 480x320 phones */
+     .container{
+        font-size: 0.8rem;
+        padding: 28px 16px;
+     }
+   }

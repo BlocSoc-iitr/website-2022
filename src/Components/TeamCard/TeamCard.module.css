@@ -69,3 +69,22 @@
 .socials img{
     padding: 2px 5px;
 }
+
+@media (min-width:320px) and (max-width: 760px)  {
+    /* smartphones, iPhone, portrait 480x320 phones */
+    .name{
+        font-size: 0.75rem;
+    }
+    .designation{
+        font-size: 0.75rem;
+    }
+    .blueContainer{
+        width: 51.5vw;
+    }
+    .purpleContainer{
+        width: 51.5vw;
+    }
+    .yellowContainer{
+        width: 51.5vw;
+    }
+   }
