@@ -23,3 +23,13 @@
     color: #fff;
     padding-left: 2%;
 }
+
+@media screen and (min-width:320px) and (max-width: 760px) {
+    .sub{
+        grid-template-areas: "card";
+        grid-row-gap: 1vh;
+    }
+    .heading{
+        font-size:2.5rem ;
+    }
+}

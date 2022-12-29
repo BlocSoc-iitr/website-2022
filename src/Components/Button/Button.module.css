@@ -61,8 +61,19 @@
   text-fill-color: transparent;
 }
 
-@media only screen and (max-width: 1280px) {
+@media only screen and (min-width: 770px) and (max-width: 1280px) {
   .text {
     font-size: 0.8rem;
+  }
+}
+
+@media only screen and (min-width:320px) and (max-width: 760px) {
+  .text {
+    font-size: 0.6rem;
+    padding: 4px
+  }
+  .container{
+    padding: 0 0;
+    border: solid 0.5px transparent;
   }
 }

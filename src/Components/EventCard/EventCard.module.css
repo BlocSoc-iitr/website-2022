@@ -73,3 +73,38 @@
 .link{
     text-decoration: none !important;
 }
+
+@media (min-width:320px) and (max-width: 760px)  {
+    /* smartphones, iPhone, portrait 480x320 phones */
+    .name{
+        font-size: 0.75rem;
+    }
+    .designation{
+        font-size: 0.75rem;
+    }
+    .blueContainer{
+        width: 78vw;
+        /* height: 14vh; */
+    }
+    .purpleContainer{
+        width: 78vw;
+        /* height: 14vh; */
+    }
+    .yellowContainer{
+        width: 78vw;
+        /* height: 14vh; */
+    }
+    .heading{
+        font-size: 1rem;
+    }
+    .desc{
+        font-size: .5rem;
+    }
+    .img{
+        height: 12vh;
+        width: 30vw;
+    }
+    .label{
+        font-size: 0.6rem;
+    }
+   }

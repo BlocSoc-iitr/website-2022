@@ -29,4 +29,10 @@
         font-size: 0.8rem;
         padding: 28px 16px;
      }
+     .logo{
+        width: 25vw;
+     }
+     .discord{
+        font-size: 0.8rem;
+     }
    }
