@@ -37,8 +37,8 @@
     padding: 2%;
 }
 .img {
-    height: 30vh;
-    width: 13vw;
+    height: 27vh;
+    width: 17vw;
     border-radius: 8px ;
     background: #3c3c3c;
 }
@@ -56,12 +56,12 @@
 }
 
 .heading{
-    font-size: 2rem;
+    font-size: 1.9rem;
     font-weight: bold;
     padding: 0 0 ;
 }
 .desc {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     padding: 0 0;
 }
 

@@ -1,48 +1,68 @@
-.container{
-    background: linear-gradient(#1E1E25,#1E1E25) padding-box,
-                linear-gradient(to right,#F537F9,#F7BE2B) border-box;
-    border: solid 2px transparent;
-    border-radius: 4px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Montserrat', sans-serif;
-    cursor: pointer;
-    padding: 1vh 0.8vw;
-    /* gap: 8px; */
-
+.container {
+  background: linear-gradient(#1e1e25, #1e1e25) padding-box,
+    linear-gradient(to right, #f537f9, #f7be2b) border-box;
+  border: solid 2px transparent;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+  padding: 1vh 0.8vw;
+  /* gap: 8px; */
 }
 
-.container:hover{
-    background: linear-gradient(90deg, rgba(245, 55, 249, 0.3) -1.47%, rgba(247, 190, 43, 0.3) 100%) padding-box;
-                /* linear-gradient(to right,#F537F9,#F7BE2B) border-box; */
+/* @keyframes change-background {
+  100% {
+    background: linear-gradient(
+        90deg,
+        rgba(245, 55, 249, 0.3) -1.47%,
+        rgba(247, 190, 43, 0.3) 100%
+      ),
+      linear-gradient(#1e1e25, #1e1e25) padding-box,
+      linear-gradient(to right, #f537f9, #f7be2b) border-box;
     border: solid 2px transparent;
-    border-radius: 4px;
-    color: #fff;
-    
+  }
+} */
+.container:hover {
+  background: linear-gradient(
+      90deg,
+      rgba(245, 55, 249, 0.3) -1.47%,
+      rgba(247, 190, 43, 0.3) 100%
+    ),
+    linear-gradient(#1e1e25, #1e1e25) padding-box,
+    linear-gradient(to right, #f537f9, #f7be2b) border-box;
+  border: solid 2px transparent;
 }
-
-.text{
-    background: linear-gradient(to right,#F537F9,#F7BE2B);
+.text {
+  background: linear-gradient(to right, #f537f9, #f7be2b);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-fill-color: transparent;
-    padding: 0 0;
-    font-size: 1.5rem;
+  background-clip: text;
+  text-fill-color: transparent;
+  padding: 0 0;
+  font-size: 1.5rem;
 }
 
-.container:hover .text{
+/* @keyframes change-textColor {
+  100% {
     background: #fff;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-fill-color: transparent;
-
+  }
+} */
+.container:hover .text {
+  background: #fff;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
 }
 
-@media only screen and (max-width:1280px) {
-    .text{
-        font-size: 0.8rem;
-    }
+@media only screen and (max-width: 1280px) {
+  .text {
+    font-size: 0.8rem;
+  }
 }
