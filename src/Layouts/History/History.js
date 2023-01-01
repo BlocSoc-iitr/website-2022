@@ -41,13 +41,13 @@ const History = (props) => {
             </div>
           </div>
           <div className={styles.numText}>
-            <div className={styles.num}>05</div>
+            <div className={styles.num}>05+</div>
             <div className={styles.text}>
               hackathons won <br /> over past
             </div>
           </div>
           <div className={styles.numText}>
-            <div className={styles.num}>28</div>
+            <div className={styles.num}>30+</div>
             <div className={styles.text}>
               core team <br /> members
             </div>

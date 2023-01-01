@@ -19,6 +19,9 @@ const Navbar = () => {
       <NavLink className={styles.link} to="/resources">
         <NavButtons str={"Resources"} path={"/resources"} />
       </NavLink>
+      <NavLink className={styles.link} to="/team">
+        <NavButtons str={"Team"} path={"/team"} />
+      </NavLink>
     </div>
   );
 };

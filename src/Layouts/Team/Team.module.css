@@ -1,3 +1,10 @@
+.Body{
+    background:  #1E1E25;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+}
 .container{
     display: flex;
     flex-direction: column;
@@ -20,10 +27,29 @@
 .card3 {grid-area: 'card';}
 .card4 {grid-area: 'card';} */
 
-.grid{
+.grid1{
     margin-top: 3rem;
     display: grid;
     grid-template: 'card card' 'card card';
+    /* grid-template-areas: 
+    "card card card"
+    ".    .    .   "; */
+    gap: 3.5rem;
+}
+
+.grid2{
+    margin-top: 3rem;
+    display: grid;
+    grid-template: 'card card';
+    /* grid-template-areas: 
+    "card card card"
+    ".    .    .   "; */
+    gap: 3.5rem;
+}
+.grid3{
+    margin-top: 3rem;
+    display: grid;
+    grid-template: 'card card';
     /* grid-template-areas: 
     "card card card"
     ".    .    .   "; */
@@ -35,7 +61,13 @@
      .heading{
         font-size: 2.5rem;
      }
-     .grid{
+     .grid1{
+        grid-template-areas: 'card';
+     }
+     .grid2{
+        grid-template-areas: 'card';
+     }
+     .grid3{
         grid-template-areas: 'card';
      }
    }

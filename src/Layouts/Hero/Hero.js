@@ -9,7 +9,7 @@ const Hero = (props) => {
     <div className={styles.heroBody}>
       <Header />
       <div className={styles.container}>
-        <div className={styles.textLarge}>Blockchain Society</div>
+        <div className={styles.textLarge}>BLOCKCHAIN SOCIETY</div>
         <div className={styles.textLarge}>IIT Roorkee</div>
         <div className={styles.textSmall}>
           An Open Community to increase interaction among Blockchain enthusiasts

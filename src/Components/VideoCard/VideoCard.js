@@ -19,7 +19,7 @@ const VideoCard = ({heading,desc,link,index}) => {
         <p className={styles.desc}>
           {desc}
         </p>
-        <a className={styles.link} href={link} target={'_blank'}><Button str={"Read Now"}/></a>
+        <a className={styles.link} href={link} target={'_blank'}><Button str={"Watch Now"}/></a>
       </div>
     </div>
   );

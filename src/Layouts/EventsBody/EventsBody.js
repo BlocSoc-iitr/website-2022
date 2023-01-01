@@ -15,7 +15,7 @@ const EventsBody = (props) => {
             <div className={styles.container}>
                 {list.map((m,index)=>{
                     return(
-                        <EventCard name={m.eventName} date={m.date} venue={m.venue} desc={m.desc} link={m.link} index={index} key={m.eventName} />
+                        <EventCard name={m.eventName} date={m.date} venue={m.venue} desc={m.desc} link={m.link} image={m.image} index={index} key={m.eventName} />
                     );
                 })}
             </div>
