@@ -1,3 +1,4 @@
+import wagbi from './projects/wagbi.png';
 import starkpay from './projects/starkpay.png';
 import nft from './projects/nft.jpg';
 import uniorders from './projects/uniorders.jpeg';
@@ -5,6 +6,14 @@ import refinext from './projects/refinext.png';
 import crosschain from './projects/blockchains.png';
 
 var Project_List = [
+    {   
+        sl:1,
+        heading:"wagbi.",
+        label:["DeFi","Polygon","Kronos"],
+        desc:"​WAGBI is a money market protocol that solves the current On-Chain Lending problems using the several new technologies and primitives.​",
+        link:"https://github.com/pradyuman-verma/WAGBI",
+        image:wagbi,
+    },
     {   
         sl:1,
         heading:"StarkPay",
