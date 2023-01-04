@@ -47,6 +47,7 @@
     width: 19vw;
     border-radius: 8px ;
     background: #3c3c3c;
+    object-fit: fill;
 }
 
 .content {
@@ -63,11 +64,13 @@
 
 .heading{
     font-size: 1.9rem;
-    font-weight: bold;
+    font-weight: 600;
+    width: 48.2vw;
 }
 
 .desc {
     font-size: 1.2rem;
+    width: 48.2vw;
 }
 
 .link{

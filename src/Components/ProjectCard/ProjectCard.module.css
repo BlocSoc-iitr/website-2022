@@ -41,6 +41,7 @@
     width: 17vw;
     border-radius: 8px ;
     background: #3c3c3c;
+    object-fit: cover;
 }
 
 .content{
@@ -57,17 +58,25 @@
 
 .heading{
     font-size: 1.9rem;
-    font-weight: bold;
+    font-weight: 600;
     padding: 0 0 ;
 }
 .desc {
     font-size: 1.2rem;
     padding: 0 0;
+    width: 48.2vw;
 }
 
 .link{
     text-decoration: none !important;
 }
+
+.labels{
+    display: flex;
+    flex-direction: row;
+    width: 48.2vw;
+}
+
 
 @media (min-width:320px) and (max-width: 760px)  {
     /* smartphones, iPhone, portrait 480x320 phones */
@@ -98,5 +107,13 @@
     .img{
         height: 12vh;
         width: 30vw;
+    }
+    .labels{
+        width: 49vw;
+        display: box;
+        display: -webkit-box;
+        display: -moz-box;
+        box-lines: multiple;
+        flex-wrap: wrap;
     }
    }

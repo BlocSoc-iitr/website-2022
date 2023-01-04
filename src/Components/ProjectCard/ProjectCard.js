@@ -3,7 +3,7 @@ import styles from "./ProjectCard.module.css";
 import Label from "../Label/Label";
 import Button from "../Button/Button";
 
-const ProjectCard = ({ heading, label, desc, link, index }) => {
+const ProjectCard = ({ heading, label, desc, link, image, index }) => {
   var containerClass;
   if (index % 3 === 0) {
     containerClass = styles.blueContainer;
@@ -14,11 +14,16 @@ const ProjectCard = ({ heading, label, desc, link, index }) => {
   }
   return (
     <div className={containerClass}>
-      <div className={styles.img}></div>
+      <div><img className={styles.img} src={`..${image}`} /></div>
       <div className={styles.content}>
         <div className={styles.heading}>{heading}</div>
-        <div className={styles.label}>
-          <Label str={label} />
+        <div className={styles.labels}>
+          {label.map((m,index) => {
+                    return(
+                      <Label str={m.toString()} />
+                    );
+                })}
+          
         </div>
         <p className={styles.desc}>{desc}</p>
         <a className={styles.link} href={link} target={'_blank'}><Button str={"View Project"} /></a>

@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./EventCard.module.css";
 import Button from "../Button/Button";
 
-const EventCard = ({ name, date, venue, desc, link, index }) => {
+const EventCard = ({ name, date, venue, desc, link,image, index }) => {
   var containerClass;
   if (index % 3 === 0) {
     containerClass = styles.blueContainer;
@@ -13,7 +13,7 @@ const EventCard = ({ name, date, venue, desc, link, index }) => {
   }
   return (
     <div className={containerClass}>
-      <div className={styles.img}></div>
+      <div><img className={styles.img} src={`..${image}`} /></div>
       <div className={styles.content}>
         <div className={styles.heading}>{name}</div>
         <div className={styles.label}>

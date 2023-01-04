@@ -3,7 +3,7 @@ import styles from "./TeamCard.module.css";
 import twitterLogo from "./assets/twitter.svg";
 import linkedinLogo from "./assets/linkedin.svg";
 
-const TeamCard = ({ Name, designation, index, twitter, linkedin }) => {
+const TeamCard = ({ Name, designation, index, twitter, linkedin, image }) => {
   var containerClass;
   if (index % 3 === 0) {
     containerClass = styles.blueContainer;
@@ -14,7 +14,7 @@ const TeamCard = ({ Name, designation, index, twitter, linkedin }) => {
   }
   return (
     <div className={containerClass}>
-      <div className={styles.image}></div>
+      <div className={styles.images}><img className={styles.image} src={`..${image}`} alt=""/></div>
       <div className={styles.details}>
         <div className={styles.name}>{Name}</div>
         <div className={styles.designation}>{designation}</div>

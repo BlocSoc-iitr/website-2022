@@ -14,13 +14,15 @@
     margin-bottom: 32vh;
 }
 .textLarge{
-    font-family: 'Magilio';
+    font-family: "Montserrat";
+    font-weight: 700;
     color: #fff;
     font-size: 4.5rem;
     display: flex;
 }
 .textSmall{
     font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
     color: #fff;
     font-size: 1.5rem;
     width: 43vw;
@@ -58,6 +60,7 @@
     }
      .textLarge{
         font-size: 2.5rem;
+        text-align: center;
      }
      .textSmall{
         font-size: 0.75rem;

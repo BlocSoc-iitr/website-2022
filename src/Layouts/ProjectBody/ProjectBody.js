@@ -15,7 +15,7 @@ const ProjectBody = (props) => {
             <div className={styles.container}>
                 {list.map((m,index) => {
                     return(
-                        <ProjectCard heading={m.heading} label={m.label} desc={m.desc} link={m.link} index={index} key={m.sl}/>
+                        <ProjectCard heading={m.heading} label={m.label} desc={m.desc} link={m.link} image={m.image} index={index} key={m.sl}/>
                     );
                 })}
             </div>
