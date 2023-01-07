@@ -41,21 +41,21 @@ const FooterDesktop = (props) => {
                     <h4>Socials</h4>
                   </li>
                   <li>
-                    <a href="https://discord.gg/Zvq3rpjBAB">Discord</a>
+                    <a href="https://discord.gg/Zvq3rpjBAB" target={'_blank'}>Discord</a>
                   </li>
                   <li>
-                    <a href="https://twitter.com/blocsociitr">Twitter</a>
+                    <a href="https://twitter.com/blocsociitr" target={'_blank'}>Twitter</a>
                   </li>
                   <li>
-                    <a href="https://medium.com/@blocsoc.acm">Medium</a>
+                    <a href="https://medium.com/@blocsoc.acm" target={'_blank'}>Medium</a>
                   </li>
                   <li>
-                    <a href="https://in.linkedin.com/company/blockchain-society-iit-roorkee">
+                    <a href="https://in.linkedin.com/company/blockchain-society-iit-roorkee" target={'_blank'}>
                       LinkedIn
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.instagram.com/blocsociitr/">Instagram</a>
+                    <a href="https://www.instagram.com/blocsociitr/" target={'_blank'}>Instagram</a>
                   </li>
                 </ul>
             </div>
