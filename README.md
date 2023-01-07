@@ -1,5 +1,5 @@
-Netlify Test Deployment Link:
-https://astounding-squirrel-4d8c7c.netlify.app/
+# Test Deployment Link:
+  ## https://blocsoc-website.vercel.app/
 
 
 
