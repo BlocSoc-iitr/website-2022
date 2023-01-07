@@ -22,11 +22,11 @@ const FooterMobile = (props) => {
             <p>Contact us at: blocsoc@acm.iitr.ac.in</p>
           </a>
           <div className={styles.socials}>
-            <a href='https://discord.gg/Zvq3rpjBAB'><img className={styles.icon} src={discord} alt="" /></a>
-            <a href='https://twitter.com/blocsociitr'><img className={styles.icon} src={twitter} alt="" /></a>
-            <a href='https://medium.com/@blocsoc.acm'><img className={styles.icon} src={medium} alt="" /></a>
-            <a href='https://in.linkedin.com/company/blockchain-society-iit-roorkee'><img className={styles.icon} src={linkedin} alt="" /></a>
-            <a href='https://www.instagram.com/blocsociitr/'><img className={styles.icon} src={instagram} alt="" /></a>
+            <a href='https://discord.gg/Zvq3rpjBAB' target={'_blank'}><img className={styles.icon} src={discord} alt="" /></a>
+            <a href='https://twitter.com/blocsociitr' target={'_blank'}><img className={styles.icon} src={twitter} alt="" /></a>
+            <a href='https://medium.com/@blocsoc.acm' target={'_blank'}><img className={styles.icon} src={medium} alt="" /></a>
+            <a href='https://in.linkedin.com/company/blockchain-society-iit-roorkee' target={'_blank'}><img className={styles.icon} src={linkedin} alt="" /></a>
+            <a href='https://www.instagram.com/blocsociitr/' target={'_blank'}><img className={styles.icon} src={instagram} alt="" /></a>
           </div>
         </div>
         <div className={styles.footerItems}>
