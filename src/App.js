@@ -17,7 +17,6 @@ import Team from './Layouts/Team/Team';
 function App() {
   return (
     <div className="App"> 
-      <Router>
         <Routes>
           <Route index element={<Home />} />
           <Route element={<Projects />} path="projects" />
@@ -26,7 +25,6 @@ function App() {
           <Route element={<Team />} path="team" />
         </Routes>
         <Footer />
-      </Router>
     </div>
   );
 }
