@@ -38,6 +38,7 @@
 .images{
     /* background: #292933; */
     margin-right: 10px;
+    border-radius: 8px;
     
 }
 
@@ -45,6 +46,7 @@
     width: 7.8vw;
     height: 21.4vh;
     object-fit: cover;
+    border-radius: 8px;
 }
 
 .details{
