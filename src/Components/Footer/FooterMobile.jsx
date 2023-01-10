@@ -7,6 +7,7 @@ import twitter from "./assets/twitter.svg";
 import medium from "./assets/medium.svg";
 import linkedin from "./assets/linkedin.svg";
 import instagram from "./assets/instagram.svg";
+import youtube from "./assets/youtube.svg";
 
 const FooterMobile = (props) => {
 
@@ -27,6 +28,7 @@ const FooterMobile = (props) => {
             <a href='https://medium.com/@blocsoc.acm' target={'_blank'}><img className={styles.icon} src={medium} alt="" /></a>
             <a href='https://in.linkedin.com/company/blockchain-society-iit-roorkee' target={'_blank'}><img className={styles.icon} src={linkedin} alt="" /></a>
             <a href='https://www.instagram.com/blocsociitr/' target={'_blank'}><img className={styles.icon} src={instagram} alt="" /></a>
+            <a href='https://www.youtube.com/@blockchainsocietyiitroorke4495' target={'_blank'}><img className={styles.icon} src={youtube} alt="" /></a>
           </div>
         </div>
         <div className={styles.footerItems}>

@@ -7,12 +7,12 @@ var Video_list = [
     {
         heading:"Smart contract security and gas optimization",
         desc:"Smart contracts are very adaptable, but that same flexibility also makes them vulnerable to attacks. Smart contracts must be optimized and tested for security issues before being utilized because they cannot be changed once they are deployed. In this video, we looked into smart contracts' gas and security optimizations.",
-        link:""
+        link:"https://www.youtube.com/watch?v=98cTBFDxhhA",
     },
     {
         heading:"EVM and Opcodes",
         desc:"The discussion covers a thorough explanation of Ethereum virtual machine and Opcodes including details such as the execution of smart contracts or the mechanism behind the canonical state followed by smart contracts. ",
-        link:""
+        link:"https://www.youtube.com/watch?v=PSRbJcJ4VsE",
     },
     {
         heading:"Demystify Defi",

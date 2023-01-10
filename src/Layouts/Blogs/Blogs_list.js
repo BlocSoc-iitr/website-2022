@@ -7,7 +7,7 @@ var Blogs_list = [
     {
         heading:"Gas Optimization in Smart Contracts",
         desc:"Here is a list of techniques and tricks you can use to minimize gas consumption while building smart contracts on EVM chains.",
-        link:"https://medium.com/@blocsoc.acm/gas-optimization-in-smart-contractsd4bd508dd361"
+        link:"https://medium.com/@blocsoc.acm/gas-optimization-in-smart-contracts-d4bd508dd361"
     },
     {
         heading:"Unfolding Terra-Luna Collapse",

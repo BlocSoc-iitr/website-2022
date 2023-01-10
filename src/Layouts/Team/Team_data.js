@@ -32,7 +32,7 @@ import sneha from './Team_photos/sneha_titoriya.jpg';
 import priyanshu from './Team_photos/priyanshu_mehra.jpeg';
 
 
-var joint_secy = [
+var team = [
     {
         sl: 1,
         name: "Pradyuman Verma",
@@ -64,12 +64,9 @@ var joint_secy = [
         twitter:"https://twitter.com/ad_git",
         linkedin:"https://www.linkedin.com/in/adityagite/",
         image: aditya_gite,
-    }
-]
-
-var third_year = [
+    },
     {
-        sl: 1,
+        sl: 5,
         name: "Chirag Baghasingh",
         designation: "Developer",
         twitter:"https://twitter.com/0xstrider_",
@@ -77,7 +74,7 @@ var third_year = [
         image:chirag,
     },
     {
-        sl: 2,
+        sl: 6,
         name: "Richa",
         designation: "Developer",
         twitter:"https://twitter.com/richa3112",
@@ -85,7 +82,7 @@ var third_year = [
         image:richa,
     },
     {
-        sl: 3,
+        sl: 7,
         name: "Neerav Chittora",
         designation: "Developer",
         twitter:"https://twitter.com/NeeravChittora",
@@ -93,7 +90,7 @@ var third_year = [
         image: neerav,
     },
     {
-        sl: 4,
+        sl: 8,
         name: "Shivam Verma",
         designation: "Developer",
         twitter:"https://twitter.com/ShivamPoW",
@@ -101,7 +98,7 @@ var third_year = [
         image: shivam,
     },
     {
-        sl: 5,
+        sl: 9,
         name: "Yash Bhanushali",
         designation: "Developer",
         twitter:"https://twitter.com/Y_ash19",
@@ -109,7 +106,7 @@ var third_year = [
         image: yash_b,
     },
     {
-        sl: 6,
+        sl: 10,
         name: "Pooja Patel",
         designation: "Developer",
         twitter:"https://twitter.com/0xpooja6",
@@ -117,7 +114,7 @@ var third_year = [
         image: pooja,
     },
     {
-        sl: 7,
+        sl: 11,
         name: "Kamal Sharma",
         designation: "Developer",
         twitter:"https://twitter.com/kamal3951",
@@ -125,7 +122,7 @@ var third_year = [
         image: kamal,
     },
     {
-        sl:8 ,
+        sl:12,
         name: "Parthsarthi Mishra",
         designation: "Developer",
         twitter:"https://twitter.com/ParthSarthiMis6",
@@ -133,7 +130,7 @@ var third_year = [
         image: parthsarthi,
     },
     {
-        sl: 9,
+        sl: 13,
         name: "Movish Verma ",
         designation: "Designer",
         twitter:"https://twitter.com/movish_v",
@@ -141,7 +138,7 @@ var third_year = [
         image: movish,
     },
     {
-        sl: 10,
+        sl: 14,
         name: "Omkar Darde",
         designation: "Designer",
         twitter:"https://twitter.com/OmkarDarde?s=08",
@@ -149,18 +146,15 @@ var third_year = [
         image: omkar,
     },
     {
-        sl: 11,
+        sl: 15,
         name: "Jatin Agarwal",
         designation: "Designer",
         twitter:"https://twitter.com/_jatinagarwal",
         linkedin:"https://www.linkedin.com/in/jatinagarwal69/",
         image: jatin,
     },
-]
-
-var second_year = [
     {
-        sl: 1,
+        sl: 16,
         name: "Samarendra Gouda",
         designation: "Developer",
         twitter:"https://twitter.com/samarendra_g",
@@ -168,7 +162,7 @@ var second_year = [
         image: samarendra,
     },
     {
-        sl:2,
+        sl:17,
         name: "Yash Saraswat",
         designation: "Developer",
         twitter:"https://twitter.com/Yash2399tw",
@@ -176,7 +170,7 @@ var second_year = [
         image:yash_s,
     },
     {
-        sl:3,
+        sl: 18,
         name: "Sumit Kumar",
         designation: "Developer",
         twitter:"https://twitter.com/Startup_dmr",
@@ -184,7 +178,7 @@ var second_year = [
         image: sumit,
     },
     {
-        sl:4,
+        sl:19,
         name: "Aditya Gupta",
         designation: "Developer",
         twitter:"https://twitter.com/adityag73681230",
@@ -192,7 +186,7 @@ var second_year = [
         image: aditya_gupta,
     },
     {
-        sl:5,
+        sl:20,
         name: "Prabhat Verma",
         designation: "Developer",
         twitter:"https://twitter.com/prabhat73082094",
@@ -200,7 +194,7 @@ var second_year = [
         image: prabhat,
     },
     {
-        sl:6,
+        sl:21,
         name: "Vaishnavi Singh",
         designation: "Developer",
         twitter:"https://twitter.com/07VaishDity",
@@ -208,7 +202,7 @@ var second_year = [
         image: vaishnavi,
     },
     {
-        sl:7,
+        sl:22,
         name: "Alok Kumar",
         designation: "Developer",
         twitter:"https://twitter.com/surfer__05",
@@ -216,7 +210,7 @@ var second_year = [
         image:alok,
     },
     {
-        sl:8,
+        sl:23,
         name: "Varun Sharma",
         designation: "Developer",
         twitter:"https://twitter.com/VarunSh10464530",
@@ -224,7 +218,7 @@ var second_year = [
         image:varun,
     },
     {
-        sl:9,
+        sl:24,
         name: "Shashank Trivedi",
         designation: "Developer",
         twitter:"https://twitter.com/urShashankt",
@@ -232,7 +226,7 @@ var second_year = [
         image: shashank,
     },
     {
-        sl:10,
+        sl:25,
         name: "Archit Gangwal",
         designation: "Developer",
         twitter:"",
@@ -240,7 +234,7 @@ var second_year = [
         image: archit,
     },
     {
-        sl:11,
+        sl:26,
         name: "Garvit Gupta",
         designation: "Developer",
         twitter:"https://twitter.com/garvitg57804732",
@@ -248,7 +242,7 @@ var second_year = [
         image: garvit,
     },
     {
-        sl:12,
+        sl:27,
         name: "Sneha Titoriya ",
         designation: "Designer",
         twitter:"https://twitter.com/sneha_titoriya",
@@ -256,7 +250,7 @@ var second_year = [
         image: sneha,
     },
     {
-        sl:13,
+        sl:28,
         name: "Priyanshu Mehra",
         designation: "Designer",
         twitter:"https://twitter.com/Priynshu_M03",
@@ -265,4 +259,4 @@ var second_year = [
     }
 ]
 
-export default {joint_secy, third_year, second_year};
+export default {team};
