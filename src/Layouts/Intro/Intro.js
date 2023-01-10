@@ -38,6 +38,7 @@ const Intro = (props) => {
               height="69vh"
               url="https://www.youtube.com/watch?v=YRj5iM3pyfc"
               playing={true}
+              muted={true}
             />
           ) : (
             <ReactPlayer
@@ -45,7 +46,8 @@ const Intro = (props) => {
               width="90vw"
               height="22vh"
               url="https://www.youtube.com/watch?v=YRj5iM3pyfc"
-              playing={false}
+              playing={true}
+              muted={true}
             />
           )}
         </div>
