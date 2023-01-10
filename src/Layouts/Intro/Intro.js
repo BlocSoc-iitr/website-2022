@@ -45,8 +45,7 @@ const Intro = (props) => {
               width="90vw"
               height="22vh"
               url="https://www.youtube.com/watch?v=YRj5iM3pyfc"
-              playing={true}
-              muted={true}
+              playing={false}
             />
           )}
         </div>
