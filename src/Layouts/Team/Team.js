@@ -6,9 +6,7 @@ import Header from "../../Components/Header/Header";
 import Navbar from "../../Components/Navbar/Navbar";
 
 const Team = (props) => {
-  var joint_secy = Data.joint_secy;
-  var third_year = Data.third_year;
-  var second_year = Data.second_year;
+  var teamMembers = Data.team;
   return (
     <div className={styles.Body}>
       <Header />
@@ -16,7 +14,7 @@ const Team = (props) => {
       <div className={styles.container}>
       <div className={styles.heading}>Meet the Team</div>
       <div className={styles.grid1}>
-        {joint_secy.map((m, index) => {
+        {teamMembers.map((m, index) => {
           return (
             <TeamCard
               index={index}
@@ -30,7 +28,7 @@ const Team = (props) => {
           );
         })}
       </div>
-      <div className={styles.grid2}>
+      {/* <div className={styles.grid2}>
         {third_year.map((m, index) => {
           return (
             <TeamCard
@@ -59,7 +57,7 @@ const Team = (props) => {
             />
           );
         })}
-      </div>
+      </div> */}
     </div>
     </div>
     

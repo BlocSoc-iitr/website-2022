@@ -57,6 +57,9 @@ const FooterDesktop = (props) => {
                   <li>
                     <a href="https://www.instagram.com/blocsociitr/" target={'_blank'}>Instagram</a>
                   </li>
+                  <li>
+                    <a href="https://www.youtube.com/@blockchainsocietyiitroorke4495" target={'_blank'}>Youtube</a>
+                  </li>
                 </ul>
             </div>
           </div>

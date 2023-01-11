@@ -77,8 +77,9 @@
         font-size: 0.8rem;
      }
      .Text{
-        width: 85vw;
-        justify-content: space-between;
+        /* width: 85vw; */
+        justify-content: center;
+        align-items: center;
         margin-top: 0;
      }
      .num{
