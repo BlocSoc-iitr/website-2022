@@ -14,7 +14,7 @@ const FooterDesktop = (props) => {
               <img src={logo} alt="" />
             </Link>
             <a href="mailto:blocsoc.acm@iitr.ac.in">
-              <p>Contact us at: blocsoc@acm.iitr.ac.in</p>
+              <p>Contact us at: blocsoc.acm@iitr.ac.in</p>
             </a>
           </div>
           <div className={styles.footerItems}>
