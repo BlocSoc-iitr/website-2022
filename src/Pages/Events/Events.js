@@ -10,7 +10,7 @@ const Events = (props) => {
 
     return (
         <>
-             <div className={styles.navbar}>
+            <div className={styles.navbar}>
                 <Navbar />
             </div>
             <EventsBody />
