@@ -20,7 +20,7 @@ const FooterMobile = (props) => {
           </Link>
           <p className={styles.tagline}>Demystifying one block at a time</p>
           <a href="mailto:blocsoc.acm@iitr.ac.in">
-            <p>Contact us at: blocsoc@acm.iitr.ac.in</p>
+            <p>Contact us at: blocsoc.acm@iitr.ac.in</p>
           </a>
           <div className={styles.socials}>
             <a href='https://discord.gg/Zvq3rpjBAB' target={'_blank'}><img className={styles.icon} src={discord} alt="" /></a>
