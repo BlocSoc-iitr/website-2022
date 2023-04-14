@@ -45,8 +45,8 @@ var team = [
         sl:2,
         name: "Vaibhav Khanna",
         designation: "Joint Secretary",
-        twitter:"",
-        linkedin:"",
+        twitter:"https://twitter.com/k_vaibhav_",
+        linkedin:" https://www.linkedin.com/in/vaibhav-khanna-387724194/",
         image: vaibhav,
     },
     {
@@ -233,14 +233,14 @@ var team = [
         linkedin:"https://www.linkedin.com/in/archit-gangwal-16b035228",
         image: archit,
     },
-    {
-        sl:26,
-        name: "Garvit Gupta",
-        designation: "Developer",
-        twitter:"https://twitter.com/garvitg57804732",
-        linkedin:"https://www.linkedin.com/in/garvit-gupta-1153b4223",
-        image: garvit,
-    },
+    // {
+    //     sl:26,
+    //     name: "Garvit Gupta",
+    //     designation: "Developer",
+    //     twitter:"https://twitter.com/garvitg57804732",
+    //     linkedin:"https://www.linkedin.com/in/garvit-gupta-1153b4223",
+    //     image: garvit,
+    // },
     {
         sl:27,
         name: "Sneha Titoriya ",
