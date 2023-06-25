@@ -10,6 +10,7 @@
 
 # production
 # /build
+/blocsoc-web
 
 # misc
 .DS_Store
