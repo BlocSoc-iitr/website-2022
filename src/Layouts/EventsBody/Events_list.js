@@ -2,8 +2,44 @@ import wagmi from './events/wagmi1.png';
 import starkcon from './events/starkcon.png';
 import lumos from './events/lumos.png';
 import sob from './events/sob.png';
+import icp from './events/icp.png';
+import web3Samaj from './events/web3Samaj.png';
+import azure from './events/azure.png';
+import bitcoinForIndia from './events/bitcoinForIndia.png';
 
 var Event_list = [
+    {
+        eventName:"Opportunities with Web3 & ICP",
+        date:"10th May 2023",
+        venue:"L2-103, New LHC",
+        desc:"BlocSoc, in collaboration with Crewsphere, conducted this session to share the opportunities with Web3 and the Inter-Computer Protocol (ICP) blockchain with students. The speakers from Crewsphere shared details about upcoming grants and mentorship",
+        link:"",
+        image:icp,
+    },
+    {
+        eventName:"Scaling Ethereum With Cryptography",
+        date:"12th April 2023",
+        venue:"L2-103, New LHC",
+        desc:"This lecture covered the fundamentals of cryptography and various cryptographic algorithms and how it is used in blockchain. We also discussed the basic idea of zero knowledge proofs.",
+        link:"",
+        image:web3Samaj,
+    },
+    {
+        eventName:"Azure Dev Day",
+        date:"22nd January 2023",
+        venue:"L2-103, New LHC",
+        desc:"This workshop aimed to share the knowledge of Web3, Blockchain and Azure among the students. Speakers from Microsoft Azure interacted with students and gave them insights about these emerging technology",
+        link:"",
+        image:azure,
+    },
+    {
+        eventName:"Bitcoin For India X BlocSoc",
+        date:"16th January 2023 to 20th February 2023",
+        venue:"",
+        desc:"BlocSoc in collaboration with Bitcoin For India conducted a 5 week workshop. The workshop covered Saylor Academy’s Course PRDV 151: Bitcoin For Everybody, with weekly sessions for doubts, discussions and further insight about the course.",
+        link:"",
+        image:bitcoinForIndia,
+    },
     {
         eventName:"WAGMI x BlocSoc IITR",
         date:"27th December 2022 \t 19:00 IST",
